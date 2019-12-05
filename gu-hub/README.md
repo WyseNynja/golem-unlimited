@@ -8,17 +8,17 @@ Hub is a central unit within Golem Unilimited subnetwork.
 via connecting the Hub. From the other hand client apps are connecting Hub to use all resources from subordinate
 providers.
 
-Golem Unlimited integrations are build using
-[Hub lo level API](http://editor.swagger.io/?url=https://raw.githubusercontent.com/golemfactory/golem-unlimited/hub-api-documented/gu-hub-api.yaml).
+Golem Unlimited integrations are built using the
+[Hub low level API](http://editor.swagger.io/?url=https://raw.githubusercontent.com/golemfactory/golem-unlimited/hub-api-documented/gu-hub-api.yaml).
 
-Hub serves Web User Interface available at http://localhost:61622/app/index.html by default. 
+Hub serves a Web User Interface available at http://localhost:61622/app/index.html by default. 
 Golem Unlimited integrations can (but not have to) provide plugins for the Web UI.
 
 
 ## Build from src
 
 Currently we support Hub on Debian based Linux distributions only.
-To perform build you need working [Rust](https://rustup.rs).
+To perform the build you need working [Rust](https://rustup.rs).
 Clone the repo, go to the `gu-hub` dir and run:
 ```
 cargo build --release
